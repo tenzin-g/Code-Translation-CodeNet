@@ -147,24 +147,24 @@ import torch
 
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+Code-Translation-CodeNet is most useful for system migration; specifically in respects to migration from an archaic system to a modern alternative. Along with this, because our dataset (CodeNet) utilizes very basic files, this project can be used for educational purposes. Here are examples of files from CodeNet, where a beginner programmer can potentially use to help translate from language to another. 
+<p align="center">
 
-[Download the App Android APk for Phase 1]()
+![codeNetEx](https://user-images.githubusercontent.com/84874177/204444053-cca3f008-9e0b-4727-970b-6b82ca78a862.png)
 
-#### Current Screens in Development for Phase 1:
+</p>
 
-![Development Phase 1 Screenshots]()
 
 <!-- ROADMAP -->
 
 ## Roadmap
 
-List of Sprint two features (and known issues, if any).
+(full outline can be found on our mural linked above)
 
-- First item
-- Second item
-- Third item
-- Fourth item
+- Find keywords from Python and C++
+- Research ML Frameworks to employ in our model 
+- Integrate frameworks to fit our desired output 
+- Test out results 
 
 <!-- Contact -->
 ## Contact
