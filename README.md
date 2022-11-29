@@ -81,165 +81,69 @@ We are still in the early stages of development so this list will be evolving as
 - [Ubuntu](https://help.ubuntu.com/) (Linux Distribution)
 
 #### Project Board:
-- [Mural](https://www.mural.co/) (Digital Collaberation)
-
-<!-- Features list -->
-
-## Features
-
-- [x] Add button
-- [x] One more add button
-- [x] Backend storing value
-- [x] So on...
-
-<!-- User Research -->
-
-## User Research
-
-[User Research]()
-
-- Resarch data from interviews with potential users.
-
-<!-- Product Research -->
-
-## Product Research
-
-[Product Research]()
-
-- Research about the market, our competitors, and brand.
-
-<!-- Personas -->
-
-## Personas
-
-[Personas]()
-
-- Four personas one for admin, two for primary and two for secondary users.
-
-<!-- Usage Scenarios -->
-
-## Usage Scenarios
-
-[Usage Scenarios]()
-
-- Five Scenarios one for admin, two for primary user and two for secondary users.
-
-<!-- Information Architecture -->
-
-## Information Architecture
-
-![Information Architecture]()
-
-- Information Architecture to lay out the structure of Project Name.
-
-<!-- Paper Prototyep -->
-
-## Paper Prototype
-
-![Paper Prototype]()
-
-<!-- Wireframes -->
-
-## Wireframes
-
-![Wireframes]()
-
-<!-- Visual Design -->
-
-## Visual Design
-
-![Visual Design 1]()
-
-![Visual Design 2]()
-
-<!-- Interactive Visual MockUp -->
-
-## Interactive Visual MockUp
-
-[Interactive Visual MockUp]()
-
-- Download the file and open with XD.
-
-<!-- Usability Testing Documentation -->
-
-## Usability Testing Documentation
-
-[Usability Testing Documentation]()
-
-- Usability Testing Documentation folder contains 'Test Plan' and 'Test Script'
-
-<!-- Usability Test Results -->
-
-## Usability Test Results
-
-[Usability Test Results]()
-
-- Information about the participants and findings.
-
-<!-- High-Level Architecture -->
-
-## High-Level Architecture
-
-![High-Level Architecture]()
-
-Describe in brief about your high-level architecture.
+- [Mural](https://www.mural.co/) (Digital Collaboration)
 
 <!-- Technical Research -->
 
 ## Technical Research
 
-[Technical Research Document]()
+The Code-Translation-CodeNet team decided to explore various ML frameworks, specifically targetting natural langauge processing, to help get our project started. Below are the links to the frameworks we have decideded to focus on. There are descriptions of each and how we plan to integrate them in the Code-Translation-CodeNet wiki!
 
-Summary of your technical research and attach the technical research document.
+- [OpenNMT](https://opennmt.net/OpenNMT-py/quickstart.html#step-1-prepare-the-data)
+- [GloVe](https://nlp.stanford.edu/projects/glove/)
+- [BERT](https://github.com/tenzin-g/Code-Translation-CodeNet/blob/main/Copy_of_BERT_Word_Embeddings_v2.ipynb)
+
 
 <!-- Getting Started -->
 
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
-To get a local copy up and running follow these simple example steps.
+Here are some simple instructions on how to set up the project locally. 
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
+- Make sure you have the latest version of Python installed on your device, along with your IDE of choice. 
+- For Windows Devices, have a WSL (ubuntu) ready. 
+- For jupyter notebooks, Google Colab is fine. A google account is needed. 
 
-#### Team Name Mobile App
-
-- Install npm
-
-```sh
-npm install npm@latest -g
-```
-
-- Install Expo CLI
+#### OpenNMT
+(full instructions are linked above)
+- upgrade pip
 
 ```sh
-npm install --global expo-cli
+pip install --upgrade pip
 ```
 
-- Install Libraries
+- Install OpenNMT
 
 ```sh
-expo install
+pip install OpenNMT-py
 ```
 
-#### Team Name Dashboard
-
-- Install npm
+#### BERT
+(full instructions are linked above)
+- Install transformers
 
 ```sh
-npm install npm@latest -g
+pip install transformers
 ```
 
-- Install npm pacakges
+- Import pytorch
 
 ```sh
-npm i
+import torch
 ```
 
-- Copy the .env template following the steps...
+ - Import pretrained BERT model and BERT tokenizer 
+ 
+ ```sh
+ from transformers import BertTokenizer, BertModel
+```
+ - Import matplotlib
+ 
+ ```sh
+ import matplotlib.pyplot as plt
+```
 
 ## Usage
 
@@ -265,19 +169,11 @@ List of Sprint two features (and known issues, if any).
 <!-- Contact -->
 ## Contact
 
-**Project Lead:** [Stewie Griffin](mailto:username@algonquinlive.com)
+**Project Lead:** [Tenzin Ghongwatsang](mailto:ghongt@rpi.edu)
 
-**Technical Lead:** [Peter Griffin](mailto:liu00415@algonquinlive.com)
-
-**Design Lead:** [Lois Griffin](mailto:username@algonquinlive.com)
-
-**API Developer:** [Meg Griffin](mailto:username@algonquinlive.com)
-
-**UX Researcher:** [Glenn Quagmire](mailto:liu00396@algonquinlive.com)
-
-**UX Designer:** [Brian Griffin](mailto:username@algonquinlive.com)
+**Project Lead:** [Anisha Halwai](mailto:halwaa@rpi.edu)
 
 <!-- Acknowledgements -->
 ## Acknowledgements
 
-Show appreciation to everyone who has helped in the project (including Client and Professors). In acknowledgment, recognize and thank everyone who was involved in this Applied Project. With acknowledgment, you can express gratitude to the people or institution whose contributions were valuable to the success of the project.
+Huge shoutout to RCOS and Professor Turner. This project only started because of this class and the Code-Translation-CodeNet team is grateful for the support! 
