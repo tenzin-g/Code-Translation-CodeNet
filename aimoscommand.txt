@@ -1,0 +1,7 @@
+blp02.ccni.rpi.edu
+blp03.ccni.rpi.edu
+blp04.ccni.rpi.edu
+
+Getting to landing pad:
+ssh WLCDtngh@blp04.ccni.rpi.edu
+
