@@ -1,0 +1,33 @@
+CodeTranslation
+
+Introduction to resources -- CodeNet (IBM)
+	Database: Simple programs in multple languages
+	== segregated into problem prompt
+	== further segregated into programming languages
+	== visual:
+		
+				 codenet database
+				/		\
+			problem1		problem2
+			/	\		/	\
+		    python     c++ 	     python 	 c++
+		   /  |  \    /  |  \       /  |  \     /  |  \
+		  v1  v2 v3  v1  v2 v3     v1  v2 v3   v1  v2  v3
+
+Goal/Vision: 
+	== Research based project on getting to know more about how one can achieve code translation. Mainly looking more into NLP models potentially used to translate words from one (human) language to another based on the context and meaning of the word. We'll also be looking into computational resources needed to run complex ML models, such as GPU capabilities provided by AiMOS.
+	== Focussing on python -> c++
+
+Context Mapping of keywords
+	== "Map" python keywords to c++ keywords
+	Eg. 	def	<-->	function
+		while	<-->	while
+		for	<-->	for(..)
+		elif 	<--> 	else if
+		del	<--> 	delete
+		True	<-->	true
+	== Mapping of tokens/keywords based on what the context of the keyword is in the program. In such a way that two different 'for' loops can be interpreted differently depending on where in the code they're used
+	== Technically, mapping of the context. Can also be expanded to context of code blocks as a whole (loops, functions, classes...)
+	== Context? Where/how/when/why of a keyword or code block
+
+
