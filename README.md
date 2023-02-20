@@ -29,7 +29,7 @@ Code-Translation is a completely open source project, including its dataset. We 
 <!-- PROJECT LOGO -->
 <p align="center">
   <a href="">
-    <img src="https://github.com/tenzin-g/Code-Translation-CodeNet/blob/main/Logo/Screenshot%202022-11-30%20at%208.49.39%20PM.JPEG" alt="Team/Project logo" width="80" height="80">
+    <img src="https://github.com/tenzin-g/Code-Translation-CodeNet/blob/main/Logo/[ct] .svg" alt="Team/Project logo" width="80" height="80">
   </a>
 
   <h3 align="center">RCOS Project</h3>
