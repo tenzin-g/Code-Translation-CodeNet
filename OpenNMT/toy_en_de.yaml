@@ -1,6 +1,7 @@
 # toy_en_de.yaml
 
 ## Where the samples will be written
+#change path to your own 
 save_data: /mnt/c/Users/tghon/Desktop/RCOS/OpenNMT-py/toy-ende/run/example
 ## Where the vocab(s) will be written
 src_vocab: /mnt/c/Users/tghon/Desktop/RCOS/OpenNMT-py/toy-ende/run/example.vocab.src
@@ -30,3 +31,5 @@ save_model: /mnt/c/Users/tghon/Desktop/RCOS/OpenNMT-py/toy-ende/run/model
 save_checkpoint_steps: 500
 train_steps: 1000
 valid_steps: 500
+
+##use the configuration command after doing this step
