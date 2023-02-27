@@ -1,0 +1,19 @@
+# toy_en_de.yaml
+#this needs to be done on AIMOS because of GPU
+#go to wiki for AIMOS instructions 
+...
+
+# Vocabulary files that were just created
+src_vocab: toy-ende/run/example.vocab.src
+tgt_vocab: toy-ende/run/example.vocab.tgt
+
+# Train on a single GPU
+world_size: 1
+gpu_ranks: [0]
+
+# Where to save the checkpoints
+save_model: toy-ende/run/model
+save_checkpoint_steps: 500
+train_steps: 1000
+valid_steps: 500
+
