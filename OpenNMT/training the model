@@ -1,0 +1,2 @@
+#AIMOS needed here
+onmt_train -config toy_en_de.yaml
