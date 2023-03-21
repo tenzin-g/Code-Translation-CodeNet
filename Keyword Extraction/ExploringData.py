@@ -39,3 +39,13 @@ def strip_html(text):
 
 def replace_contractions(text):
     return contractions.fix(text)
+ 
+lemmatizer = WordNetLemmatizer()
+def remove_non_ascii(words):
+    """Remove non-ASCII characters from list of tokenized words"""
+    new_words = []
+    for word in words:
+        new_word = unicodedata.normalize('NFKD', word).encode('ascii', 'ignore').decode('utf-8', 'ignore')
+        new_words.append(new_word)
+    return new_words
+
