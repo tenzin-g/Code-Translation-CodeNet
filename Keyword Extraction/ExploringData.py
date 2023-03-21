@@ -32,3 +32,10 @@ data.head()
 data.dtypes
 
 data.columns
+
+def strip_html(text):
+    soup = BeautifulSoup(text, "html.parser")                    
+    return soup.get_text()
+
+def replace_contractions(text):
+    return contractions.fix(text)
