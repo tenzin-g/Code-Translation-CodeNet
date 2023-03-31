@@ -49,3 +49,26 @@ def remove_non_ascii(words):
         new_words.append(new_word)
     return new_words
 
+def to_lowercase(words):
+    """Convert all characters to lowercase from list of tokenized words"""
+    new_words = []
+    for word in words:
+       # print(word)
+        new_word = word.lower()
+      #  print(new_word)
+        new_words.append(new_word)
+    return new_words
+
+def remove_punctuation(words):
+    """Remove punctuation from list of tokenized words"""
+    new_words = []
+    for word in words:
+        new_word = re.sub(r'[^\w\s]', '', word)
+        if new_word != '':
+            new_words.append(new_word)
+    return new_words
+def lemmatize_list(words):
+    new_words = []
+    for word in words:
+      new_words.append(lemmatizer.lemmatize(word, pos='v'))
+    return new_words
