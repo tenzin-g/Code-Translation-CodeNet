@@ -82,3 +82,14 @@ def normalize(words):
     return ' '.join(words)
 
 print("done")   
+
+import wordcloud
+def show_wordcloud(text, title):
+    stopwords = set(wordcloud.STOPWORDS)
+    fig_wordcloud = wordcloud.WordCloud(stopwords=stopwords,background_color='white',
+                    colormap='viridis', width=800, height=600).generate(text)
+    plt.figure(figsize=(14,11), frameon=True)
+    plt.imshow(fig_wordcloud)
+    plt.axis('off')
+    plt.title(title, fontsize=30)
+    plt.show()
