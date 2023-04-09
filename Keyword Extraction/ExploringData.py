@@ -72,3 +72,13 @@ def lemmatize_list(words):
     for word in words:
       new_words.append(lemmatizer.lemmatize(word, pos='v'))
     return new_words
+    
+def normalize(words):
+   # words = remove_non_ascii(words)
+    words = to_lowercase(words)
+    #words = remove_punctuation(words)
+    words = remove_stopwords(words)
+   # words = lemmatize_list(words)
+    return ' '.join(words)
+
+print("done")   
