@@ -93,3 +93,9 @@ def show_wordcloud(text, title):
     plt.axis('off')
     plt.title(title, fontsize=30)
     plt.show()
+
+    root_cause_category_mapping = pd.read_csv('rootcause_csv_mapping_file.csv')
+
+print(root_cause_category_mapping.shape)
+data_pred =data_pred.merge(root_cause_category_mapping, on='rootcause')
+data_pred.head()
